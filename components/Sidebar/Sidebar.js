@@ -28,7 +28,7 @@ export default function Sidebar(props) {
   function activeRoute(routeName) {
     return router.route.indexOf(routeName) > -1 ? true : false;
   }
-  const { color, logo, image, logoText, routes } = props;
+  const { color, logo, image, logoText, routes, bgColor } = props;
   var links = (
     <List className={classes.list}>
       {routes.map((prop, key) => {
@@ -84,7 +84,7 @@ export default function Sidebar(props) {
   );
   var brand = (
     <div className={classes.logo}>
-      <a
+      {/* <a
         href="https://www.creative-tim.com?ref=njsmd-sidebar"
         className={classNames(classes.logoLink, {
           [classes.logoLinkRTL]: props.rtlActive,
@@ -95,7 +95,7 @@ export default function Sidebar(props) {
           <img src={logo} alt="logo" className={classes.img} />
         </div>
         {logoText}
-      </a>
+      </a> */}
     </div>
   );
   return (
@@ -120,12 +120,12 @@ export default function Sidebar(props) {
             {props.rtlActive ? <RTLNavbarLinks /> : <AdminNavbarLinks />}
             {links}
           </div>
-          {image !== undefined ? (
+          {/* {image !== undefined ? (
             <div
               className={classes.background}
-              style={{ backgroundImage: "url(" + image + ")" }}
+              style={{ backgroundColor: bgColor }}
             />
-          ) : null}
+          ) : null} */}
         </Drawer>
       </Hidden>
       <Hidden smDown implementation="css">
@@ -144,7 +144,7 @@ export default function Sidebar(props) {
           {image !== undefined ? (
             <div
               className={classes.background}
-              style={{ backgroundImage: "url(" + image + ")" }}
+              style={{ backgroundColor: bgColor }}
             />
           ) : null}
         </Drawer>

@@ -42,62 +42,62 @@ const dashboardRoutes = [
 
     layout: "/admin",
   },
-  {
-    path: "/table-list",
-    name: "Table List",
-    rtlName: "قائمة الجدول",
-    icon: "content_paste",
+  // {
+  //   path: "/table-list",
+  //   name: "Table List",
+  //   rtlName: "قائمة الجدول",
+  //   icon: "content_paste",
 
-    layout: "/admin",
-  },
-  {
-    path: "/typography",
-    name: "Typography",
-    rtlName: "طباعة",
-    icon: LibraryBooks,
+  //   layout: "/admin",
+  // },
+  // {
+  //   path: "/typography",
+  //   name: "Typography",
+  //   rtlName: "طباعة",
+  //   icon: LibraryBooks,
 
-    layout: "/admin",
-  },
-  {
-    path: "/icons",
-    name: "Icons",
-    rtlName: "الرموز",
-    icon: BubbleChart,
+  //   layout: "/admin",
+  // },
+  // {
+  //   path: "/icons",
+  //   name: "Icons",
+  //   rtlName: "الرموز",
+  //   icon: BubbleChart,
 
-    layout: "/admin",
-  },
-  {
-    path: "/maps",
-    name: "Maps",
-    rtlName: "خرائط",
-    icon: LocationOn,
+  //   layout: "/admin",
+  // },
+  // {
+  //   path: "/maps",
+  //   name: "Maps",
+  //   rtlName: "خرائط",
+  //   icon: LocationOn,
 
-    layout: "/admin",
-  },
-  {
-    path: "/notifications",
-    name: "Notifications",
-    rtlName: "إخطارات",
-    icon: Notifications,
+  //   layout: "/admin",
+  // },
+  // {
+  //   path: "/notifications",
+  //   name: "Notifications",
+  //   rtlName: "إخطارات",
+  //   icon: Notifications,
 
-    layout: "/admin",
-  },
-  {
-    path: "/rtl-page",
-    name: "RTL Support",
-    rtlName: "پشتیبانی از راست به چپ",
-    icon: Language,
+  //   layout: "/admin",
+  // },
+  // {
+  //   path: "/rtl-page",
+  //   name: "RTL Support",
+  //   rtlName: "پشتیبانی از راست به چپ",
+  //   icon: Language,
 
-    layout: "/rtl",
-  },
-  {
-    path: "/upgrade-to-pro",
-    name: "Upgrade To PRO",
-    rtlName: "التطور للاحترافية",
-    icon: Unarchive,
+  //   layout: "/rtl",
+  // },
+  // {
+  //   path: "/upgrade-to-pro",
+  //   name: "Upgrade To PRO",
+  //   rtlName: "التطور للاحترافية",
+  //   icon: Unarchive,
 
-    layout: "/admin",
-  },
+  //   layout: "/admin",
+  // },
 ];
 
 export default dashboardRoutes;
